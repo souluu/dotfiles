@@ -1,3 +1,13 @@
 [user]
 	name = Hao Yu
 	email = soulu1017@gmail.com
+
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+
+  ls = ls-files
+  la = "!git config -l | grep alias | cut -c 7-"
+

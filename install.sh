@@ -8,5 +8,5 @@ for file in $files; do
     f=${file#./}
     mv ~/$f tmp/ 2> /dev/null
     echo "Linking $f"
-    ln -s ~/.dotfiles/$f ~/$f
+    ln -s ~/.dotfiles/$f ~/$f 2> /dev/null
 done
